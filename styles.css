@@ -1,1 +1,45 @@
 /* Write your CSS here! */
+body {
+    margin: 8px;
+    display: block;
+}
+#mainHeading {
+    color: red;
+}
+h1 {
+    font-family: Lora;
+    text-align: center;
+}
+ 
+h4{
+   font-family:Inconsolata;
+   text-align: center; 
+}
+
+#home-page-nav-bar, a {
+    font-family: Archivo Narrow;
+    font-size: 1.4rem;
+    letter-spacing: 0.06rem;
+    text-decoration:none;
+    color:black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+
+}
+.home-page-nav-bar:hover{
+    opacity: 50%;
+}
+#home-page-main-wrapper {
+   
+}
+
+#coding > * {
+   
+}
+#codingImg {
+    height: 200px;
+    width: 200px;
+    border-radius: 70%;
+}
