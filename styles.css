@@ -22,7 +22,7 @@ h4{
    color:rgb(208, 212, 216)
 }
 
-#home-page-nav-bar, a {
+#home-page-nav-bar{
     font-family: Archivo Narrow;
     font-size: 1.4rem;
     letter-spacing: 0.06rem;
@@ -78,4 +78,15 @@ padding-bottom: 6px;;
 
 #music {
  margin-left: 50%;
+}
+#musicParagraph{
+    padding-top: 50px;
+    padding-right:69px;
+    font-size: 0.97rem;
+
+}
+#discGolfParagraph{
+    padding-top: 50px;
+    padding-right:71px;
+    font-size: 0.97rem;
 }
