@@ -2,47 +2,80 @@
 body {
     margin: 8px;
     display: block;
+    background-color: rgb(0, 0, 0);
+    
 }
 #mainHeading {
-    
+    background-color: rgb(37, 36, 36);
 }
 h1 {
     font-family: Lora;
     text-align: center;
+    color:rgb(208, 212, 216);
+    padding:5px;
+
 }
  
 h4{
    font-family:Inconsolata;
    text-align: center; 
+   color:rgb(208, 212, 216)
 }
-#testP {
-    color:green;
-    font-family: ;
-}
+
 #home-page-nav-bar, a {
     font-family: Archivo Narrow;
     font-size: 1.4rem;
     letter-spacing: 0.06rem;
     text-decoration:none;
-    color:rgb(226, 126, 11);
+    color:rgb(37, 56, 231);
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     flex-direction: row;
 
 }
-.home-page-nav-bar:hover{
+.home-page-nav-bar-item:hover{
     opacity: 50%;
+    font-size:1.4rem;
+    cursor:grab;
+
+  
 }
+
 #home-page-main-wrapper {
    
 }
 
-#coding > * {
-   
+.home-page-descriptions {
+   background-image: url(photos/iphonechatbubble.png);
+   opacity: 100%;
+   width: 645px;
+   height: 390px;
+   margin-top: 5rem;
+   overflow: hidden;
+}
+.funParagraph {
+    font-family: Roboto;
+    font-size: 0.97rem;
+    color:rgb(248, 244, 244);
+    opacity:100%;
+    margin-left:10px;
+    padding-left: 40px;
+    padding-top: 30px;
+    padding-right:50px;
+    overflow: hidden;
+    
+}
+#coding{
+padding-top: 5px;
+padding-bottom: 6px;;
 }
 #codingImg {
-    height: 200px;
-    width: 200px;
+    height: 50px;
+    width: 50px;
     border-radius: 70%;
+}
+
+#music {
+ margin-left: 50%;
 }
