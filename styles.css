@@ -1,1 +1,84 @@
 /* Write your CSS here! */
+body {
+    margin: 8px;
+    display: block;
+    background-color: rgb(0, 0, 0);
+    
+}
+#mainHeading {
+    
+    background-image: url(photos/blueishgloss.jpg);
+}
+h1 {
+    font-family: Lora;
+    text-align: center;
+    color:rgb(208, 212, 216);
+    padding:5px;
+
+}
+ 
+h4{
+   font-family:Inconsolata;
+   text-align: center; 
+   color:rgb(208, 212, 216);
+   padding-bottom: 30px;
+}
+
+#home-page-nav-bar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    
+
+}
+.home-page-nav-bar-item:hover{
+    opacity: 50%;
+    cursor:grab;
+    transform: scale(0.99,0.95);
+}
+
+#home-page-main-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.home-page-descriptions {
+   background-image: url(photos/iphonechatbubble.png);
+   opacity: 100%;
+   width: 645px;
+   height: 390px;
+   margin-top: 5rem;
+   overflow: hidden;
+}
+.funParagraph {
+    font-family: Roboto;
+    font-size: 0.97rem;
+    color:rgb(248, 244, 244);
+    opacity:100%;
+    margin-left:10px;
+    padding-left: 40px;
+    padding-top: 30px;
+    padding-right:50px;
+    overflow: hidden;
+    /*color:green; */
+}
+#coding{
+padding-top: 5px;
+padding-bottom: 6px;
+margin-left: 50%;
+}
+#music {
+ margin-left: 50%;
+}
+#musicParagraph{
+    padding-top: 50px;
+    padding-right:69px;
+    font-size: 0.97rem;
+
+}
+#discGolfParagraph{
+    padding-top: 50px;
+    padding-right:71px;
+    font-size: 0.97rem;
+}
