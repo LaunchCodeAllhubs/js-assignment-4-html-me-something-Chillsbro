@@ -6,7 +6,8 @@ body {
     
 }
 #mainHeading {
-    background-color: rgb(37, 36, 36);
+    
+    background-image: url(photos/blueishgloss.jpg);
 }
 h1 {
     font-family: Lora;
@@ -19,31 +20,27 @@ h1 {
 h4{
    font-family:Inconsolata;
    text-align: center; 
-   color:rgb(208, 212, 216)
+   color:rgb(208, 212, 216);
+   padding-bottom: 30px;
 }
 
 #home-page-nav-bar{
-    font-family: Archivo Narrow;
-    font-size: 1.4rem;
-    letter-spacing: 0.06rem;
-    text-decoration:none;
-    color:rgb(37, 56, 231);
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     flex-direction: row;
+    
 
 }
 .home-page-nav-bar-item:hover{
     opacity: 50%;
-    font-size:1.4rem;
     cursor:grab;
-
-  
+    transform: scale(0.99,0.95);
 }
 
 #home-page-main-wrapper {
-   
+    display: flex;
+    flex-direction: column;
 }
 
 .home-page-descriptions {
@@ -64,18 +61,13 @@ h4{
     padding-top: 30px;
     padding-right:50px;
     overflow: hidden;
-    
+    /*color:green; */
 }
 #coding{
 padding-top: 5px;
-padding-bottom: 6px;;
+padding-bottom: 6px;
+margin-left: 50%;
 }
-#codingImg {
-    height: 50px;
-    width: 50px;
-    border-radius: 70%;
-}
-
 #music {
  margin-left: 50%;
 }
